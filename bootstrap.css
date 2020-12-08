@@ -1,0 +1,197 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item img {
+  width: 100;
+  height: 100%;
+}
+
+.carousel-caption{
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  line-height: 1.8;
+  margin-bottom: 0;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000,
+    1px -1px 1px #000;
+  -webkit-text-stroke: 0.1px black;
+}
+
+.bg-dark{
+  height: 100px;
+  
+  background-color: rgb(122, 184, 7);
+}
+
+#footerBootstrap{
+  padding: 50px 0;
+  text-align: center;
+  color: beige;
+  background-color: rgb(9, 19, 163)
+}
+
+h1 {
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 80px;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000,
+    1px -1px 1px #000;
+  -webkit-text-stroke: 0.1px black;
+}
+
+.tituloFooter {
+  font-size: 20px;
+  font-weight: 50;
+  line-height: 15px;
+ 
+}
+
+p {
+  font-size: 20px;
+  color: rgb(224, 196, 196);
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000,
+  1px -1px 1px #000;
+-webkit-text-stroke: 0.1px black;
+}
+
+.textoQuienesSomos{
+  color: black;
+  font-size: 20px;
+}
+
+.topmargin-small {
+  margin-top: 15px;
+}
+
+.topmargin-medium {
+  margin-top: 30px;
+}
+
+.topmargin-big {
+  margin-top: 60px;
+}
+
+.botonCabecera{
+  font-size: 14px;
+  padding: 15px 26px;
+  min-width: 160px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.botonBlanco{
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid blanchedalmond;
+}
+
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px 0 black;
+  min-height: 100px;
+}
+
+.nav-link {
+  color: rgb(35, 19, 185);
+}
+
+.nav-link:hover {
+  color: darkgoldenrod;
+}
+
+.logo {
+  width: 160px;
+  height: 80px;
+}
+
+.navbar-toggler {
+  font-size: 40px;
+  color: blue;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+#cabeceraIndex {
+  background-image: url(imagenes/poligonos.gif);
+  background-size: cover;
+  padding-top: 10px;
+  min-height: 500px;
+  color: white;
+  opacity: 0.6;
+  filter: alpha(opacity=40);
+}
+
+#cabeceraIndex p {
+  font-size: 20px;
+  color: white;
+  line-height: 1.8;
+  margin-bottom: 0;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000,
+    1px -1px 1px #000;
+  -webkit-text-stroke: 0.1px black;
+}
+
+#cabeceraQuienes {
+  background-image: url(imagenes/imagen2.jpg);
+  background-size: cover;
+  padding-top: 10px;
+  min-height: 500px;
+  color: white;
+  opacity: 0.6;
+  filter: alpha(opacity=40);
+}
+
+#cabeceraProductos{
+  background-size: cover;
+  padding: 10px 0px;
+  min-height: 500px;
+  color: white;
+
+  filter: alpha(opacity=1);
+}
+
+
+.textoCabeceraIndex {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+#footerBootstrap .list-inline .list-inline-item{
+  padding: 10px 15px;
+  color: beige;
+
+
+}
+
+#footerBootstrap .list-inline .list-inline-item .icon {
+  color: white;
+  font-size: 35px;
+  
+}
+
+
+
+@media (max-width: 575.98px) { 
+  h1 {font-size: 40px; line-height: normal;}
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+@media (min-width: 1200px) { ... }
